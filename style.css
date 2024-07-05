@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: "Chewy", system-ui;
+    background: linear-gradient(154.46deg, #bfa4e4 0%, #5a4087 100%);
+    color: #1e2f5b;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 100%;
+}
