@@ -20,3 +20,41 @@ body {
 img {
     width: 100%;
 }
+
+/* Header */
+header {
+    padding-top: 30px;
+}
+
+.navbar {
+    background: #080f327a;
+    padding: 16px;
+    border-radius: 64px;
+}
+
+.navbar-brand {
+    max-width: 50px;
+    padding: 0;
+}
+
+.nav-link {
+    color: #d8cedc;
+    transition: 0.4s;
+}
+
+.nav-link:hover {
+    color: #d8cedc;
+    opacity: 0.6;
+}
+
+.custom-btn {
+    background-color: #1e2f5b;
+    border-radius: 55px;
+    padding: 5px 15px;
+    width: fit-content;
+    transition: 0.4s;
+}
+
+.custom-btn:hover {
+    background-color: #14203d;
+}
