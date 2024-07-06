@@ -113,3 +113,39 @@ header {
     max-width: 540px;
     margin-inline: auto;
 }
+
+/* Tokenomics */
+#tokenomics {
+    margin-block: 50px;
+    margin-bottom: 100px;
+}
+
+.address {
+    border: #ece3f0 solid 2px;
+    border-radius: 10px;
+    background-color: #1e2f5b;
+    max-width: 800px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    margin-inline: auto;
+    flex-wrap: wrap;
+    color: #ece3f0;
+}
+
+.address h6 {
+    font-size: 1.5rem;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #ece3f0 solid 2px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    color: #ece3f0;
+    background-color: #1e2f5b;
+}
