@@ -85,3 +85,31 @@ header {
 .hero-img {
     max-width: 400px;
 }
+
+/* Introduction */
+#intro {
+    margin-bottom: 100px;
+}
+
+.space-img {
+    max-width: 200px;
+}
+
+.sub-intro {
+    margin-top: 100px;
+}
+
+.custom-btn.road {
+    position: absolute;
+}
+
+.road-img {
+    position: absolute;
+    max-width: 150px;
+    bottom: -60px;
+}
+
+.custom-card.road {
+    max-width: 540px;
+    margin-inline: auto;
+}
