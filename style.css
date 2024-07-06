@@ -21,6 +21,15 @@ img {
     width: 100%;
 }
 
+.custom-card {
+    color: #1e2f5b;
+    border: solid 3px #000f94;
+    padding: 20px;
+    border-radius: 32px;
+    background: #ece3f0;
+    box-shadow: 0px 0px 16px 0px #0000008f inset;
+}
+
 .modal-body {
     height: 60vh;
     overflow-y: scroll;
