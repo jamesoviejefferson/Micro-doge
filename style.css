@@ -192,3 +192,41 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+#roadmap {
+    margin-block: 70px;
+}
+
+.maps {
+    gap: 20px;
+}
+
+.map {
+    color: #1e2f5b;
+    padding: 1.5rem;
+    border: solid 1px #000f94;
+    position: relative;
+    background: #ece3f0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px #0000008f inset;
+    flex: 1;
+}
+
+map ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+.phase-4 {
+    width: fit-content;
+    margin-inline: auto;
+    flex-wrap: wrap;
+}
+
+.phase-4 h5 {
+    font-size: 1.5rem;
+}
+
+.phase-4 p {
+    font-size: 3rem;
+}
