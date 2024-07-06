@@ -149,3 +149,18 @@ header {
     color: #ece3f0;
     background-color: #1e2f5b;
 }
+
+/* How to buy */
+#how-to-buy {
+    margin-top: 50px;
+    position: relative;
+    max-width: 1260px;
+    margin-inline: auto;
+}
+
+.space-img.footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 180px;
+}
