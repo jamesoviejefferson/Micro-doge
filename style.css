@@ -12,13 +12,18 @@ html {
 
 body {
     font-family: "Chewy", system-ui;
-    background: linear-gradient(154.46deg, #bfa4e4 0%, #5a4087 100%);
+    background: linear-gradient(158.46deg, #bfa4e4 0%, #5a4087 100%);
     color: #1e2f5b;
     font-size: 1.3rem;
 }
 
 img {
     width: 100%;
+}
+
+.modal-body {
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 /* Header */
