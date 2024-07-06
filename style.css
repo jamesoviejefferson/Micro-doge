@@ -193,6 +193,7 @@ header {
     align-items: center;
 }
 
+/* Roadmap */
 #roadmap {
     margin-block: 70px;
 }
@@ -203,7 +204,7 @@ header {
 
 .map {
     color: #1e2f5b;
-    padding: 1.5rem;
+    padding: 2.5rem;
     border: solid 1px #000f94;
     position: relative;
     background: #ece3f0;
@@ -229,4 +230,36 @@ map ul {
 
 .phase-4 p {
     font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .space-img.footer {
+        max-width: 150px;
+    }
+
+    .address h6 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .address h6 {
+        font-size: 0.75rem;
+    }
+
+    .phase-4 p {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .maps {
+        flex-direction: column !important;
+        border-left: 5px solid var(--light-color);
+    }
+
+
+    .phase-4 {
+        width: 100%;
+    }
 }
